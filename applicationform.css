@@ -1,0 +1,17 @@
+body{
+}
+h2{
+    font-szie : 80px;
+    border: solid 10px black;
+    text-align: center;
+    color: darkblue;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family:"Mali";
+}
