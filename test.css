@@ -1,0 +1,130 @@
+body{
+    background-image: url('dark_wood.png');
+}
+
+p{
+    color:white;
+    font-family:"Arial";
+    
+
+}
+
+h3{
+    color:#FFBC00;
+    font-size: 40px;
+    font-family:"Passion One";
+    margin-bottom: 0px;
+}
+
+li{
+    display: inline;
+}
+
+#Header{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    background-color: #8E41D5;
+    text-shadow: 5px 5px greenyellow;
+    text-decoration: underline aqua;
+    letter-spacing: 3px;
+    direction: rtl;
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #ffbc00;
+    font-weight: bold;
+}
+
+#LeftNav{
+    float: left;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding-bottom: 8px;
+    background-color: #8E41D5;
+}
+
+#LeftNav img{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#LeftNav ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#LeftNav h3{
+
+}
+
+#Content{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align:center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: #8E41D5;
+    border-radius: 40%;
+    
+}
+
+#Content img{
+    opacity: 0.5;
+    filter: alpha(opacity=50);  
+}
+
+#Footer{
+    border: solid 8px black;
+    text-align: center;
+    background-color: #8E41D5;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#Footer ul{
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
